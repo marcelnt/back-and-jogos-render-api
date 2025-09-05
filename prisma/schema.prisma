@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      = env("DATABASE_URL")
+  url      = mysql://root:bcd127@localhost:3306/db_controle_jogos_bb
 }
 
 model tbl_teste {
